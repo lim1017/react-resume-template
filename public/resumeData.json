@@ -9,17 +9,15 @@
     "email": "lim1017@hotmail.com",
     "phone": "416-453-8894",
     "address":{
-      "street":"56 Oakley Blvd",
       "city":"Toronto",
-      "state":"Ontario",
-      "zip": "M1P 3P4"
+      "state":"Ontario"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"https://drive.google.com/open?id=1GV5L-KHXtwkJy9LMRJMoW9eI5o5opznC",
     "social":[
       {
         "name":"linkedin",
-        "url":"www.linkedin.com/in/tom-lim-9114061a2",
+        "url":"https://www.linkedin.com/in/tom-lim-9114061a2",
         "className":"fa fa-linkedin"
       },
       {
@@ -63,6 +61,18 @@
   "portfolio":{
     "projects": [
       {
+        "title":"WikiMaps",
+        "category":"A Full Stack SPA Web App that utilizes Google Maps API, allowing users to create/edit Maps. Front:HTML/CSS/AJAX/jQuery/JavaScript & Back:Node/Express/PSQL",
+        "image":"Wiki-Map.png",
+        "url":"https://github.com/lim1017/wikimap"
+      },
+      {
+        "title":"Scheduler",
+        "category":"A Single Page Application (SPA) Built using React, Implemented Storybook/Jest/Cypres Testing",
+        "image":"scheduler.png",
+        "url":"https://frosty-wilson-725e94.netlify.com/"
+      },
+      {
         "title":"Tiny URL App",
         "category":"A full stack web app built with Node and Express that allows users to shorten long URLs",
         "image":"tinyapp-urls-page.png",
@@ -73,13 +83,8 @@
         "category":"A Single Page App (SPA) built with HTML, CSS, JS, jQuery and AJAX on the client-side, and Node, Express and MongoDB on the server-side.",
         "image":"tweeter-DesktopView1.png",
         "url":"https://github.com/lim1017/tweeter"
-      },
-      {
-        "title":"WikiMaps",
-        "category":"A Full Stack SPA Web App that utilizes Google Maps API, allowing users to create/edit Maps. Front:HTML/CSS/AJAX/jQuery/JavaScript & Back:Node/Express/PSQL",
-        "image":"Wiki-Map.png",
-        "url":"https://github.com/lim1017/wikimap"
       }
+      
     ]
   },
   "testimonials":{
