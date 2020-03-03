@@ -6,13 +6,12 @@
     "image":"profilepic.jpg",
     "bio":"200 IQ Javascript Guy",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "lim1017@hotmail.com",
+    "email": "Lim1017@hotmail.com",
     "phone": "416-453-8894",
     "address":{
       "city":"Toronto",
       "state":"Ontario"
     },
-    "website": "http://www.timbakerdev.com",
     "resumedownload":"https://drive.google.com/open?id=1GV5L-KHXtwkJy9LMRJMoW9eI5o5opznC",
     "social":[
       {
@@ -34,12 +33,12 @@
         "school":"Light House Labs",
         "degree":"Web Development Bootcamp",
         "graduated":"March 2020",
-        "description":"An immersive full time 12 week bootcamp."
+        "description":"An immersive full time 12 week bootcamp. Focus on the PERN (Postgres,Express,React,NodeJS) stack for developing full-stack applications."
       },
       {
         "school":"Ryerson University",
         "degree":"Finance",
-        "graduated":"March 2003",
+        "graduated":"2012",
         "description":"Finance Major Accounting Minor"
       }
     ],
@@ -64,25 +63,29 @@
         "title":"WikiMaps",
         "category":"A Full Stack SPA Web App that utilizes Google Maps API, allowing users to create/edit Maps. Front:HTML/CSS/AJAX/jQuery/JavaScript & Back:Node/Express/PSQL",
         "image":"Wiki-Map.png",
-        "url":"https://github.com/lim1017/wikimap"
+        "url":"https://wikimapstom.herokuapp.com/",
+        "git":"https://github.com/lim1017/wikimap"
       },
       {
         "title":"Scheduler",
         "category":"A Single Page Application (SPA) Built using React, Implemented Storybook/Jest/Cypres Testing",
         "image":"scheduler.png",
-        "url":"https://frosty-wilson-725e94.netlify.com/"
+        "url":"https://frosty-wilson-725e94.netlify.com/",
+        "git":"https://github.com/lim1017/scheduler"
       },
       {
         "title":"Tiny URL App",
         "category":"A full stack web app built with Node and Express that allows users to shorten long URLs",
         "image":"tinyapp-urls-page.png",
-        "url":"https://github.com/lim1017/tinyapp"
+        "url":"https://github.com/lim1017/tinyapp",
+        "git":"https://github.com/lim1017/tinyapp"
       },
       {
         "title":"Tweeter clone",
         "category":"A Single Page App (SPA) built with HTML, CSS, JS, jQuery and AJAX on the client-side, and Node, Express and MongoDB on the server-side.",
         "image":"tweeter-DesktopView1.png",
-        "url":"https://github.com/lim1017/tweeter"
+        "url":"https://github.com/lim1017/tweeter",
+        "git":"https://github.com/lim1017/tweeter"
       }
       
     ]

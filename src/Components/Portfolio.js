@@ -20,6 +20,7 @@ class Portfolio extends Component {
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
+          <a href={projects.git}>Github</a>
         </div>
       })
     }
@@ -31,7 +32,8 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Work!</h1>
+            <h1>Please Allow Up To 15 Seconds For Heroku Deployment</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
