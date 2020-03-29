@@ -60,6 +60,13 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Piggy Bank",
+        "category":"A budget tracking/financial education App.  Allows users to track expenses, create goals, and craft a budget to meet them.  Frontend: React/HTML/CSS/JavaScript, Backend:Node/Express/PSQL",
+        "image":"piggy.png",
+        "url":"https://thepiggybank.netlify.com/",
+        "git":"https://github.com/lim1017/final_lhl"
+      },
+      {
         "title":"WikiMaps",
         "category":"A Full Stack SPA Web App that utilizes Google Maps API, allowing users to create/edit Maps. Front:HTML/CSS/AJAX/jQuery/JavaScript & Back:Node/Express/PSQL",
         "image":"Wiki-Map.png",
@@ -79,14 +86,8 @@
         "image":"tinyapp-urls-page.png",
         "url":"https://github.com/lim1017/tinyapp",
         "git":"https://github.com/lim1017/tinyapp"
-      },
-      {
-        "title":"Tweeter clone",
-        "category":"A Single Page App (SPA) built with HTML, CSS, JS, jQuery and AJAX on the client-side, and Node, Express and MongoDB on the server-side.",
-        "image":"tweeter-DesktopView1.png",
-        "url":"https://github.com/lim1017/tweeter",
-        "git":"https://github.com/lim1017/tweeter"
       }
+    
       
     ]
   },
