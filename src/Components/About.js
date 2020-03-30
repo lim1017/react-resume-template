@@ -25,18 +25,19 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <h4 className='bio'>{bio}</h4>
             <div className="row">
                <div className="columns contact-details">
+                  <br></br>
                   <h2>Contact Details</h2>
-                  <p className="address">
+                  <h5 className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span>
-					   </p>
+					   </h5>
                </div>
                <div className="columns download">
                   <p>
