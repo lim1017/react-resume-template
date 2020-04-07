@@ -33,6 +33,13 @@ function Portfolio (props) {
           <ul>
             <li><h5>{props.front} </h5></li>
             <li><h5>{props.back} </h5></li> 
+
+            {props.youtube ? (
+              <li><h5> <a href={props.youtube}>Youtube Demo</a> </h5></li> 
+
+                    ) : null}
+
+
           </ul>
 
         </Modal.Body>
@@ -64,7 +71,14 @@ function Portfolio (props) {
             </a>
           </div>
           <a target="_blank" href={projects.git}><h4>Github</h4></a>
-          <h4 onClick={() => setModalShow(projects.id)}>Info</h4>
+          <h4 onClick={() => setModalShow(projects.id)}>
+            
+          {projects.youtube ? (
+              'Info + demo' 
+
+                    ) : "Info"}
+          
+          </h4>
         </div>
 
             <MyVerticallyCenteredModal
@@ -75,6 +89,7 @@ function Portfolio (props) {
             details={projects.category}
             front={projects.front}
             back={projects.back}
+            youtube={projects.youtube}
             />
 
             </div>
