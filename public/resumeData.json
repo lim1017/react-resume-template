@@ -72,6 +72,16 @@
       },
       {
         "id":2,
+        "title":"My Kard",
+        "category":"A Social Media App, that allows a user to Pick your favourite album, book, movie and restaurant share it with the world",
+        "front":"Client: React/HTML/CSS/JavaScript",
+        "back":"Server: Node/Express",
+        "image":"kard.png",
+        "url":"https://mykard.netlify.app",
+        "git":"https://github.com/TylerZhang00/Kard"
+      },
+      {
+        "id":3,
         "title":"WikiMaps",
         "category":"A Full Stack SPA Web App that utilizes Google Maps API, allowing users to create/edit Maps.",
         "front":"Client: HTML/CSS/AJAX/jQuery/JavaScript",
@@ -81,7 +91,7 @@
         "git":"https://github.com/lim1017/wikimap"
       },
       {
-        "id":3,
+        "id":4,
         "title":"Scheduler",
         "category":"A Single Page Application (SPA) That allows users to Schedule book an interview Implemented Storybook/Jest/Cypres Testing",
         "front":"Client: React/HTML/CSS/JavaScript",
@@ -89,16 +99,6 @@
         "image":"scheduler.png",
         "url":"https://frosty-wilson-725e94.netlify.com/",
         "git":"https://github.com/lim1017/scheduler"
-      },
-      {
-        "id":4,
-        "title":"Tiny URL App",
-        "category":"A full stack web app built with Node and Express that allows users to shorten long URLs",
-        "front":"Client: HTML/CSS/JavaScript/jQuery",
-        "back":"Server: Node/Express",
-        "image":"tinyapp-urls-page.png",
-        "url":"https://github.com/lim1017/tinyapp",
-        "git":"https://github.com/lim1017/tinyapp"
       }
     
       

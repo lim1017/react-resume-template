@@ -60,7 +60,7 @@ function Portfolio (props) {
           <h2><a target="_blank" href={projects.url} title={projects.title}>{projects.title} </a></h2>
            <div className="item-wrap">
             <a target="_blank" href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
+               <img style={{height:'105px'}} alt={projects.title} src={projectImage} />
                {/* <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
