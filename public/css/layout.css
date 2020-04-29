@@ -40,6 +40,12 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+.kard{
+   margin-left: 0.5em;
+   cursor: pointer;
+
+}
+
 header {
    position: relative;
    height: 800px;
