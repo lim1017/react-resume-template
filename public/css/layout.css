@@ -27,11 +27,13 @@ body { background: #0f0f0f; }
 
 .bio{
    color: whitesmoke !important;
-   font-size: 12px;
+   font-size: 16px;
    font-weight: 600;
 }
 
 .address{
+   font-size: 14px;
+   font-weight: 600;
    color: whitesmoke;
 }
 
@@ -270,11 +272,11 @@ ul#nav li.current a { color: #F06000; }
 .eduSchool{
    padding-top: 10px;
    font-weight: 600;
-   font-size: 20px;
+   font-size: 24px;
 }
 
 #resume .info {
-   font: 12px 'librebaskerville-italic', serif;
+   font: 16px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -284,12 +286,12 @@ ul#nav li.current a { color: #F06000; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 12px 'opensans-regular', sans-serif;
+   font: 16px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
 .resume-text{
-   font-size: 12px !important;
+   font-size: 14px !important;
 }
 
 #resume {
