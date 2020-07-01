@@ -26,7 +26,9 @@ body { background: #0f0f0f; }
 
 
 .bio{
-   color: whitesmoke;
+   color: whitesmoke !important;
+   font-size: 12px;
+   font-weight: 600;
 }
 
 .address{
@@ -35,6 +37,8 @@ body { background: #0f0f0f; }
 
 .resume-text{
    font-size: 25px;
+   font-size: 12px;
+   font-weight: 600;
 }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
