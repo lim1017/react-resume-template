@@ -34,12 +34,12 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline"> Tommy Lim</h1>
-            <h1 className="responsive-headline">Welcome To My Portfolio [WIP]</h1>
+            <h1 className="responsive-headline">Welcome To My Portfolio [ WIP ]</h1>
             <h3>A {city} based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
                {networks}
-               <a href="https://mykard.netlify.app/#/kard/lim1017"><img className='kard' src="https://www.nicepng.com/png/detail/182-1826178_my-business-card-line-comments-visiting-card-icon.png" alt="Smiley face" height="42" width="42" />
+               <a href="https://mykard.netlify.app/#/kard/lim1017"><img className='fa fa-kard' src="https://www.nicepng.com/png/detail/182-1826178_my-business-card-line-comments-visiting-card-icon.png" alt="Smiley face" height="42" width="42" />
                </a>
             </ul>
          </div>
