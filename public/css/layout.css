@@ -466,6 +466,7 @@ ul#nav li.current a { color: #F06000; }
 .port-item{
    /* background-color: red; */
    width: 40% !important;
+   max-height: 250px !important;
 }
 
 .centered-div{
@@ -474,6 +475,15 @@ ul#nav li.current a { color: #F06000; }
    justify-content: center;
    padding-top: 1.5em;
    padding-bottom: 2em;
+}
+
+.port-item-hovor-text{
+   padding-left: 1em;
+   padding-right: 1em;
+   /* color: #11ABB0; */
+   color:white;
+   font-weight: 800;
+   font-size: 14px;
 }
 
 
