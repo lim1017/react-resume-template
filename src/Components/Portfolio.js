@@ -54,7 +54,7 @@ function Portfolio(props) {
 
       var projectImage = "images/portfolio/" + projects.image;
       return (
-        <Project />
+        <Project img={projectImage} />
 
         //   <div>
         // <div key={projects.title} className="columns portfolio-item">

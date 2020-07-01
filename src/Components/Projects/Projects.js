@@ -2,16 +2,16 @@ import React from "react";
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import 'mdbreact/dist/css/mdb.css'
 
-class Project extends React.Component {
-  render() {
+function Project (props) {
+  
     return (
       <MDBContainer className="mt-5 port-item">
        
             <MDBView hover>
               <img
-                src="https://mdbootstrap.com/img/Others/documentation/forest-sm-mini.jpg"
+                src={require(`../../../public/${props.img}`)}
                 className="img-fluid"
-                alt=""
+                
               />
               <MDBMask className="flex-center" overlay="red-slight">
                 <p className="white-text">Super light overlay</p>
@@ -21,7 +21,7 @@ class Project extends React.Component {
         
       </MDBContainer>
     );
-  }
+  
 }
 
 export default Project;

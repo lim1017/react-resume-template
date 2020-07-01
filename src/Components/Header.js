@@ -39,7 +39,7 @@ class Header extends Component {
             <hr />
             <ul className="social">
                {networks}
-               <a className='fa fa-kard' href="https://mykard.netlify.app/#/kard/lim1017"><img className='fa fa-kard' src="https://www.nicepng.com/png/detail/182-1826178_my-business-card-line-comments-visiting-card-icon.png" alt="Smiley face" height="42" width="42" />
+               <a href="https://mykard.netlify.app/#/kard/lim1017"><img className='fa fa-kard' src="https://www.nicepng.com/png/detail/182-1826178_my-business-card-line-comments-visiting-card-icon.png" alt="Smiley face" height="42" width="42" />
                </a>
             </ul>
          </div>
