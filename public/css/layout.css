@@ -453,9 +453,14 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
+a {
+   text-decoration: none !important;
+}
+
+
 #portfolio{
    background-color: #ebeeee;
-   padding-bottom: 3em;
+   padding-bottom: 5em;
 }
 
 #port-wrapper{
@@ -464,9 +469,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .port-item{
-   /* background-color: red; */
+   /* margin-top: 1em !important; */
    width: 40% !important;
-   max-height: 250px !important;
+   /* max-height: 250px !important; */
+   display:block;
+}
+
+.makePointer{
+   cursor: pointer !important;
+
 }
 
 .centered-div{
@@ -474,7 +485,7 @@ ul#nav li.current a { color: #F06000; }
    display: flex;
    justify-content: center;
    padding-top: 1.5em;
-   padding-bottom: 2em;
+   /* padding-bottom: 2em; */
 }
 
 .port-item-hovor-text{
@@ -484,6 +495,13 @@ ul#nav li.current a { color: #F06000; }
    color:white;
    font-weight: 800;
    font-size: 14px;
+}
+
+.port-links{
+   color: #11ABB0 !important;
+   margin-right: 2em !important;
+   font-size: 12px;
+   font-weight: 500;
 }
 
 
