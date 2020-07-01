@@ -40,12 +40,19 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-.kard{
+.fa-kard{
    margin-left: 0.5em;
    cursor: pointer;
-
 }
 
+.fa-kard-square:before {
+   content: "\f08c";
+ }
+
+ .fa-kard:before {
+   content: "\f0e1";
+ }
+ 
 header {
    position: relative;
    height: 800px;
@@ -446,6 +453,32 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
+#portfolio{
+   background-color: #ebeeee;
+   padding-bottom: 3em;
+}
+
+#port-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.port-item{
+   /* background-color: red; */
+   width: 40% !important;
+}
+
+.centered-div{
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   padding-top: 1.5em;
+   padding-bottom: 2em;
+}
+
+
+
+/* 
 #portfolio {
    background: #ebeeee;
    padding-top: 90px;
@@ -460,10 +493,10 @@ ul#nav li.current a { color: #F06000; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
-}
+} */
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+/* #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -478,10 +511,10 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
-}
+} */
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+/* .portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -535,10 +568,10 @@ ul#nav li.current a { color: #F06000; }
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
-}
+} */
 
 /* on hover */
-.portfolio-item:hover .overlay {
+/* .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
@@ -547,7 +580,7 @@ ul#nav li.current a { color: #F06000; }
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
-}
+} */
 
 /* popup modal */
 .popup-modal {
