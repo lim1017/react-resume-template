@@ -44,6 +44,12 @@
     ],
     "work":[
       {
+        "company":"GigEco",
+        "title":"Front-End Developer React",
+        "years":"April 2020 - July 2020",
+        "description":"Implement new features, troubleshooting, fix bugs, participate in code reviews, etc."
+      },
+      {
         "company":"Lim TFX Investments",
         "title":"Property Manager ",
         "years":"2013 - Present",
