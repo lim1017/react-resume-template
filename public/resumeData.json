@@ -67,6 +67,16 @@
     "projects": [
       {
         "id":1,
+        "title":"Property Manager",
+        "category":"V0.1 of an App for small scale landlords (for now).  The user can create a company, add properties to said company. Add units/tenants/issues to each property etc.  Property Manager summarizes this information in an easy to organize and view application", 
+        "front":"Client: React/JavaScript/Material-ui/HTML/CSS",
+        "back":"Server: Node/Express/PSQL",
+        "image":"property.png",
+        "url":"https://property-manager.netlify.app/",
+        "git":"https://github.com/lim1017/propertyManager" 
+      },
+      {
+        "id":2,
         "title":"Piggy Bank",
         "category":"A budget tracking/financial education App.  Allows users to track expenses, create goals, and craft a budget to meet them.", 
         "front":"Client: React/HTML/CSS/JavaScript",
@@ -77,7 +87,7 @@
         "youtube":"https://www.youtube.com/watch?v=Qd7ejr85uek&t=2s"
       },
       {
-        "id":2,
+        "id":3,
         "title":"My Kard",
         "category":"A Social Media App, that allows a user to Pick your favourite album, book, movie and restaurant share it with the world",
         "front":"Client: React/HTML/CSS/JavaScript",
@@ -87,7 +97,7 @@
         "git":"https://github.com/TylerZhang00/Kard"
       },
       {
-        "id":3,
+        "id":4,
         "title":"WikiMaps",
         "category":"A Full Stack SPA Web App that utilizes Google Maps API, allowing users to create/edit Maps.",
         "front":"Client: HTML/CSS/AJAX/jQuery/JavaScript",
@@ -97,7 +107,7 @@
         "git":"https://github.com/lim1017/wikimap"
       },
       {
-        "id":4,
+        "id":5,
         "title":"Scheduler",
         "category":"A Single Page Application (SPA) That allows users to Schedule book an interview Implemented Storybook/Jest/Cypres Testing",
         "front":"Client: React/HTML/CSS/JavaScript",
@@ -107,7 +117,7 @@
         "git":"https://github.com/lim1017/scheduler"
       },
       {
-        "id":5,
+        "id":6,
         "title":"RoboCall",
         "category":"A fun little app, Utilizing Twillio API allows users to send a customized RoboCall or picture message, to friends/enemies!",
         "front":"Client: React/HTML/CSS/JavaScript",
