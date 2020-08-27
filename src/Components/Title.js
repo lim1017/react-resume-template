@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SplitText from 'react-pose-text';
-// import './styles.css';
+import './Title.css';
 
 // Full React Pose Text documentation can be found at
 // https://popmotion.io/pose/api/react-pose-text
@@ -11,15 +11,15 @@ const charPoses = {
   enter: {
     opacity: 1,
     y: 0,
-    delay: ({ charIndex }) => charIndex * 30
+    delay: ({ charIndex }) => charIndex * 90
   }
 };
 
 function Title() {
   return (
-    <div className="container">
+    <div className="container-title" style={{padding:"0px"}}>
       <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-        React Pose Text
+       A Developer is coming...
       </SplitText>
     </div>
   );

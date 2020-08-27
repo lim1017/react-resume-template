@@ -1,0 +1,29 @@
+
+canvas {
+  display: block;
+}
+
+.title-div{
+  position: absolute;
+  top: 30%;
+  /* left:30%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social{
+  position: absolute;
+  margin-top: 8em;
+  display: flex;
+  align-self: center;
+  font-size: 40px !important;
+}
+
+.scrolldown{
+  position: absolute;
+  margin-top: 12em;
+  display: flex;
+  align-self: center;
+  font-size: 40px !important;
+}

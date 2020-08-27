@@ -6,19 +6,19 @@ import Test from '../threeJS/test';
 class Header extends Component {
   render() {
 
-   //  if(this.props.data){
-   //    var name = this.props.data.name;
-   //    var occupation= this.props.data.occupation;
-   //    var description= this.props.data.description;
-   //    var city= this.props.data.address.city;
-   //    var networks= this.props.data.social.map(function(network){
-   //      return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-   //    })
-   //  }
+    if(this.props.data){
+      // var name = this.props.data.name;
+      // var occupation= this.props.data.occupation;
+      // var description= this.props.data.description;
+      // var city= this.props.data.address.city;
+      var networks= this.props.data.social.map(function(network){
+        return <li style={{marginLeft:"0.5em", marginRight:"0.5em"}} key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
+    }
 
     return (
-       <div>
-      <ThreeCanvas />
+      <div style={{maxWidth:"100vw", maxHeight:"100%", overflow:"hidden"}}>
+      <ThreeCanvas networks={networks} />
 
 
       {/* <header id="home"> */}
@@ -45,18 +45,15 @@ class Header extends Component {
             <h1 className="responsive-headline">Welcome To My Portfolio [ WIP ]</h1>
             <h3 style={{color:"black"}}>A {city} based <span>{occupation}</span>. {description}.</h3>
             <hr />
-            <ul className="social">
-               {networks}
-               <a href="https://mykard.netlify.app/#/kard/lim1017"><img className='fa fa-kard' src="https://www.nicepng.com/png/detail/182-1826178_my-business-card-line-comments-visiting-card-icon.png" alt="Smiley face" height="42" width="42" />
-               </a>
-            </ul>
+            // <ul className="social">
+            //    {networks}
+            //    <a href="https://mykard.netlify.app/#/kard/lim1017"><img className='fa fa-kard' src="https://www.nicepng.com/png/detail/182-1826178_my-business-card-line-comments-visiting-card-icon.png" alt="Smiley face" height="42" width="42" />
+            //    </a>
+            // </ul>
          </div>
       </div> */}
 
-      {/* <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-      </p> */}
-
+      
    {/* </header> */}
    </div>
     );
