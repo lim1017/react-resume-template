@@ -15,6 +15,7 @@ function Project(props) {
           <img
             src={require(`../../../public/${props.img}`)}
             className="img-fluid"
+            
           />
 
           <MDBMask className="flex-center" overlay="teal-strong">

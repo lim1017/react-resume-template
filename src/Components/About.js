@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ParticleBg from './Animations/ParticleBG';
 
 class About extends Component {
   render() {
@@ -18,6 +19,7 @@ class About extends Component {
 
     return (
       <section id="about">
+         {/* <ParticleBg /> */}
       <div className="row">
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
