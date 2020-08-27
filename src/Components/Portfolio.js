@@ -3,6 +3,7 @@ import { Modal } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Project from "./Projects/Projects";
+import { MDBIcon, MDBContainer, MDBBtn } from "mdbreact";
 
 function Portfolio(props) {
   const [modalShow, setModalShow] = React.useState(0);
@@ -54,7 +55,16 @@ function Portfolio(props) {
 
       var projectImage = "images/portfolio/" + projects.image;
       return (
-        <Project img={projectImage} title={projects.title} description={projects.category} front={projects.front} back={projects.back} url={projects.url} demo={projects.youtube} git={projects.git} />
+        <Project
+          img={projectImage}
+          title={projects.title}
+          description={projects.category}
+          front={projects.front}
+          back={projects.back}
+          url={projects.url}
+          demo={projects.youtube}
+          git={projects.git}
+        />
 
         //   <div>
         // <div key={projects.title} className="columns portfolio-item">
@@ -97,18 +107,14 @@ function Portfolio(props) {
     <section id="portfolio">
       <div>
         <div>
-          <div className='centered-div'>
+          <div className="centered-div">
             <h1>Check Out Some of My Work!</h1>
-            </div>
+          </div>
 
-            <div className='centered-div'>
-
+          <div className="centered-div">
             <h1>Please Allow Up To 15 Seconds For Heroku Deployment</h1>
-            </div>
-          <div
-            id="port-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
+          </div>
+          <div id="port-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {projects}
           </div>
         </div>

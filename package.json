@@ -30,7 +30,8 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3"
+    "babel-core": "^6.26.3",
+    "react-social-icons": "^4.1.0"
   },
   "browserslist": {
     "production": [

@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import * as THREE from "three";
 import Title from "../Components/Title";
 import "../index.css";
+import { SocialIcon } from 'react-social-icons';
+
 
 class ThreeCanvas extends Component {
   componentDidMount() {
@@ -182,8 +184,13 @@ class ThreeCanvas extends Component {
           <div style={{ color: "white", fontSize: "30px", marginTop: "20px" }}>
             Welcome to Tommy Lim's Portfolio
           </div>
+                <div className="social">
+                  {/* <a href="https://www.linkedin.com/in/tlim8894"> */}
+                  <i class="fab fa-linkedin" style={{fontSize:"50px", color: "#0f9fa4", marginLeft:"0.5em", marginRight:"0.5em"}} ></i>
+                  {/* </a> */}
+                  <i class="fab fa-github" style={{fontSize:"50px", color: "#0f9fa4", marginLeft:"0.5em", marginRight:"0.5em"}} ></i>
 
-            <ul className="social">{this.props.networks}</ul>
+                </div>
 
 
 				<p className="scrolldown">
