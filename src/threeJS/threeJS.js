@@ -181,7 +181,7 @@ class ThreeCanvas extends Component {
           
 					<Title />
 
-          <div style={{ color: "white", fontSize: "30px", marginTop: "20px" }}>
+          <div style={{ color: "white", fontSize: "30px", marginTop: "40px" }}>
             Welcome to Tommy Lim's Portfolio
           </div>
                 <div className="social">
