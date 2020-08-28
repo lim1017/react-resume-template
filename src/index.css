@@ -27,3 +27,15 @@ canvas {
   align-self: center;
   font-size: 40px !important;
 }
+
+/* social icons changing size/color */
+.fab{
+  color: #0f9fa4;
+  transition: 1s;
+  transform: scale(1)
+}
+
+.fab:hover{
+  transform: scale(1.1);
+  color: #0056b3;
+}
