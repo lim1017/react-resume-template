@@ -185,10 +185,14 @@ class ThreeCanvas extends Component {
             Welcome to Tommy Lim's Portfolio
           </div>
                 <div className="social">
-                  {/* <a href="https://www.linkedin.com/in/tlim8894"> */}
+                  <a href="https://www.linkedin.com/in/tlim8894">
                   <i class="fab fa-linkedin" style={{fontSize:"50px", color: "#0f9fa4", marginLeft:"0.5em", marginRight:"0.5em"}} ></i>
-                  {/* </a> */}
+                  </a>
+
+                  <a href="https://github.com/lim1017">
+
                   <i class="fab fa-github" style={{fontSize:"50px", color: "#0f9fa4", marginLeft:"0.5em", marginRight:"0.5em"}} ></i>
+                  </a>
 
                 </div>
 
